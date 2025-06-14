@@ -715,7 +715,7 @@ main {
 .brands-track {
   display: flex;
   gap: 4rem;
-  animation: scrollBrands 35s linear infinite;
+  animation: scrollBrands 50s linear infinite;
   width: fit-content;
   padding-left: 100%;
 }
