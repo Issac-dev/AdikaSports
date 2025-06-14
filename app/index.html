@@ -463,7 +463,7 @@ document.addEventListener('DOMContentLoaded', function() {
             scrolling = true;
             requestAnimationFrame(function() {
                 const scrolled = window.pageYOffset;
-                const speed = 0.5;
+                const speed = 1.5;
                 brandsTrack.style.transform = `translateX(-${scrolled * speed}px)`;
                 scrolling = false;
             });
